@@ -421,7 +421,7 @@ body {
   display: block;
   padding: 0.5rem 1rem;
 }
-.nav.nav.nav-link:hover {
+.nav.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 a:link { /* A link that has a destination (i.e., not just a named anchor)*/
