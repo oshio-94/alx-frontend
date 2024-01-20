@@ -33,7 +33,7 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
-a {
+a:link { /* A link that has a destination (i.e., not just a named anchor)*/
   color: #161616;
   text-decoration: none;
 }
