@@ -373,7 +373,7 @@ template {
   --section-title-color: var(--color-black);
 } /* Custom Variables*/
 
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 html {
