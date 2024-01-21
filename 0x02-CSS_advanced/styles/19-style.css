@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
 .footer ul {
-  text-align: left;
+  text-align: right;
 }
 .footer {
   padding: var(--footer-padding);
