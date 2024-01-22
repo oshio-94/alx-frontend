@@ -695,7 +695,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.2);
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
-.card-work:hover .card-outer {
+.card-work:hover .card-inner {
   transform: scale(0.95);
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
