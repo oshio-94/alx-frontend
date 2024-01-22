@@ -569,6 +569,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background-color: var(--button-hover-background);
+  transition-duration: var(--transition-duration);
+  transition-property: var(--transition-cubic-bezier);
 }
 .card-testimonial {
   text-align: center;
