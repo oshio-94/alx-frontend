@@ -400,6 +400,8 @@ template {
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
+  --transition-duration: .3s;
+  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 } /* Custom Variables*/
 
 *, *:before, *:after {
@@ -684,4 +686,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #efeded;
   font-size: 10rem;
   z-index: -1;
+}
+.card-work:hover .card-image {
+  transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+.card-work:hover .card-outer {
+  transform: scale(0.95);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
