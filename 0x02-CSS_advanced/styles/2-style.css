@@ -1,16 +1,8 @@
-:root {
-  --color-primary: #d73953; /* decleration */
-  --color-black: #090909;
-  --color-white: #ffffff;
-  --color-light-grey: #f3f3f3;
-  --color-dark-grey: #353535;
-  --text-color: var(--color-black); /* accessing */
-} /* Custom Variables*/
 html {
   scroll-behavior: smooth;
   }/* smooth scrolling*/
 body {
-  color: var(--text-color);
+  color: #161616;
 }
 a {
   color: #161616;
@@ -19,8 +11,8 @@ a {
   display: none;
 }
 .card-category {
-  color: var(--color-primary);
+  color: #D73953;
 }
 .section-tagline {
-  color: var(--color-primary);
+  color: #D73953;
 }
